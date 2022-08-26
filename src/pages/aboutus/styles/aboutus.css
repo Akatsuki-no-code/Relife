@@ -1,8 +1,8 @@
 .column {
     float: left;
-    width: 33.3%;
+    width:19%;
     margin-bottom: 16px;
-    padding: 0 8px;
+    padding: 0 7px;
 }
 
 .card {
@@ -10,13 +10,10 @@
     margin: 8px;
 }
 
-.about-section {
+.about-desc {
     padding: 50px;
     text-align: center;
-}
-
-.about-desc{
-
+    font-size: 25px;
 }
 
 .container {

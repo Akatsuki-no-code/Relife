@@ -10,8 +10,10 @@ function App() {
     <Router>
       <Routes>
         <Route path="/login" element={<LRPage/>}/>
-        <Route path="/main-page" element={<MainPage/>}/>
-        <Route path="/about-us" element={<AboutUs/>}/>
+        <Route path="/main-page" element={<MainPage/>}>
+          <Route path="aboutus" element={<AboutUs/>}/>
+
+        </Route>
       </Routes>
     </Router>
   );
