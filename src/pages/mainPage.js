@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Outlet } from 'react-router-dom
 import "./main-page.css";
 
 import { useSpring, animated, config } from "react-spring";
-
+import ExconvictInfo from "./exconvicts/exconvict";
+import {route} from 'react-router-dom'
 
 const MainPage = () => {
   const [active, setActive] = useState(0);
