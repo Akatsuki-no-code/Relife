@@ -1,8 +1,25 @@
+.row {
+    display: flex;
+    justify-content: center;
+}
+
 .column {
     float: left;
-    width:19%;
+    width: 19%;
     margin-bottom: 16px;
     padding: 0 7px;
+    text-align: center;
+}
+
+.column img {
+    width: 10%;
+}
+
+.column-1 {
+    width: 19%;
+    margin-bottom: 16px;
+    padding: 0 7px;
+    text-align: center;
 }
 
 .card {
