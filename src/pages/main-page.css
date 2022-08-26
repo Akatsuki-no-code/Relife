@@ -1,0 +1,50 @@
+.nav-bar{
+    position:sticky;
+    top:0;
+    left:0;
+    display:flex;
+    justify-content:flex-end;
+    
+}
+
+.nav-bar .nav-item{
+    margin: 10px;
+    padding:10px;
+    color:white;
+    font-size:1.3rem;
+    position:relative;
+    transition:0.5s;
+    top:0px
+
+
+}
+
+.nav-bar .nav-item:hover{
+    top:8px;
+    letter-spacing:3px;
+    font-weight: bold;
+
+    
+
+}
+
+.quote-holder{
+    max-width:50%;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+
+.quote{
+    font-style: italic;
+    font-size:1.4rem;
+    text-align:center;
+}
+.quote p{
+    font-weight: 900;
+}
+
+.info-holder{
+    height:100vh;
+}

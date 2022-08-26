@@ -14,10 +14,10 @@ const Login = () => {
 
     return(
         <div className={"login-container"}>
-            <div>
-                <input type="email" placeholder="email" onChange={(e)=> setEmail(e.target.value)} />
-                <input type="password" placeholder="Password" onChange={(e)=> setPass(e.target.value)} />
-                <button onClick={()=>signIn()}>login</button>
+            <div className={"login-box"}>
+                <input type="email" placeholder="email" className="register-input" onChange={(e)=> setEmail(e.target.value)} />
+                <input type="password" placeholder="Password" className="register-input" onChange={(e)=> setPass(e.target.value)} />
+                <button onClick={()=>signIn()} className="register-button">login</button>
             </div>
         </div>
         )
