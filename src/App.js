@@ -10,6 +10,7 @@ function App() {
       <Routes>
         <Route path="/login" element={<LRPage/>}/>
         <Route path="/main-page" element={<MainPage/>}/>
+        
       </Routes>
     </Router>
   );
