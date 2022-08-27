@@ -1,0 +1,28 @@
+.enroll-btn{
+    position: relative;
+    outline:none;
+    border:none;
+    background: radial-gradient(circle at 60% 70% ,#6703d8,#4a00e0);
+    padding:30px;
+    color:white;
+    font-size:1.5rem;
+    border-radius: 30px;
+    margin:30px;
+    z-index: 1000;
+}
+
+.enroll-btn:hover{
+    font-weight:800
+}
+
+.enroll-holder{
+    background-image: url("../../../static/images/18303730.jpg");
+    background-size: 100% 100%;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-direction: column;
+    font-size: 3rem;
+    font-weight:bold;
+    padding:200px
+}
