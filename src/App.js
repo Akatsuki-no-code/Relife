@@ -21,7 +21,7 @@ function App() {
         nav("/login")
       }
     })
-  },[])
+  },[auth.currentUser])
 
   return (
     

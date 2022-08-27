@@ -3,9 +3,11 @@ import "./styles/exconvict.css";
 import img1 from "../../static/images/vector 1.jpg"
 import img2 from "../../static/images/31161.jpg"
 import img3 from '../../static/images/v2.jpg'
-import {Link} from 'react-router-dom'
+import {Link,useNavigate} from 'react-router-dom'
 
 const ExconvictInfo = () => {
+    const nav = useNavigate()
+
   return (
     <div style={{ margin: 10 }}>
       <div>
@@ -73,11 +75,9 @@ const ExconvictInfo = () => {
         <div><button className="enroll-btn">
             Enroll
         </button>
-        <Link to="/quiz">
-        <button className="enroll-btn">
+        <button className="enroll-btn" onClick={()=> nav("/quiz")}>
             Take a mental health quiz
         </button>
-        </Link>
         </div>
         
       </div>
