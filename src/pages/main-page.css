@@ -4,6 +4,7 @@
     left:0;
     display:flex;
     justify-content:flex-end;
+    z-index: 5;
     
 }
 
@@ -14,7 +15,8 @@
     font-size:1.3rem;
     position:relative;
     transition:0.5s;
-    top:0px
+    top:0px;
+    z-index:6
 
 
 }
@@ -46,5 +48,25 @@
 }
 
 .info-holder{
-    height:100vh;
+    height:60vh;
+    margin-left: 50px;
+    font-size:1.3rem;
+}
+
+.info-holder div{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    
+}
+
+.info-holder div p{
+    max-width:60%;
+    margin:30px
+}
+
+.info-holder:nth-child(2n) div{
+    flex-direction: row-reverse;
+
 }

@@ -62,7 +62,16 @@ const AboutUs = () => {
                     </div>
                 </div>
             </>
-
+            <div>
+                <h1>
+                    Our Mission
+                </h1>
+            </div>
+            <div>
+                <h1>
+                    Our Vision
+                </h1>
+            </div>
         </div>
     )
 }
