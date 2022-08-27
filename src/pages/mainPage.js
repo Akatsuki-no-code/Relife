@@ -38,7 +38,7 @@ const MainPage = () => {
         </svg>
         <Link to={"/main-page/aboutus"}><div className="nav-item">About us</div></Link>
         <Link to= {"/main-page/exconvicts"}><div className="nav-item">Join us</div></Link>
-        <div className="nav-item">Contact us</div>
+        <Link to= {"/main-page/contact"}><div className="nav-item">Contact us</div></Link>
         <div className="nav-item" onClick={()=> signOut(auth)}>Sign Out</div>
       </nav>
       <div style={{ position: "relative",top:"150px",zIndex:"0"}}>

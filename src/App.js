@@ -5,6 +5,7 @@ import AboutUs from './pages/aboutus/aboutus.js';
 import PQuiz from './pages/quiz/personalityQuiz';
 import { BrowserRouter as Router,Routes,Route, useNavigate} from 'react-router-dom';
 import ExconvictInfo from './pages/exconvicts/exconvict';
+import ContactUs from './pages/constactUs';
 import { useState,useLayoutEffect } from 'react';
 import { auth } from './firebase';
 import { onAuthStateChanged } from 'firebase/auth';
@@ -30,6 +31,8 @@ function App() {
         <Route path="/main-page" element={<MainPage/>}>
           <Route path="aboutus" element={<AboutUs/>}/>
           <Route path="exconvicts" element={<ExconvictInfo/>}/>
+          <Route path="contact" element={<ContactUs/>}/>
+
 
         </Route>
         <Route path="/main-page" element={<MainPage/>}/>
