@@ -70,3 +70,16 @@
         display: block;
     }
 }
+
+.slogan{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.slogan h1{
+    text-decoration: underline;
+}
+
+.slogan p{
+    font-size: 20px;
+}

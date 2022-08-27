@@ -9,11 +9,12 @@ import ajai from './img/ajai.svg'
 const AboutUs = () => {
     return (
         <div>
+            <h2 style={{ textAlign: "center", fontSize: "30px" }}>Meet Our Team</h2>
             <div className='about-desc'>
                 <p> "If I have seen further, it is by standing on the shoulders of giants." <br />-Isaac Newton</p>
             </div>
             <>
-                <h2 style={{ textAlign: "center" }}>Meet Our Team</h2>
+                
                 <div className="row">
                     <div className="column-1">
                         <div className="card">
@@ -62,15 +63,21 @@ const AboutUs = () => {
                     </div>
                 </div>
             </>
-            <div>
-                <h1>
-                    Our Mission
-                </h1>
-            </div>
-            <div>
+            <div className='slogan'>
                 <h1>
                     Our Vision
                 </h1>
+                <p>
+                    To help humanity take a step towards creating world peace.
+                </p>
+            </div>
+            <div className='slogan'>
+                <h1>
+                    Our Mission
+                </h1>
+                <p>
+                    To help people who want to take their next step towards a new life, and to change the views of the society to hate the sin not the sinner.
+                </p>
             </div>
         </div>
     )
