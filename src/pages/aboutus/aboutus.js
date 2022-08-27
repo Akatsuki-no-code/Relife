@@ -9,6 +9,7 @@ import ajai from './img/ajai.svg'
 const AboutUs = () => {
     return (
         <div>
+            <a href="http://www.freepik.com">Designed by stories / Freepik</a>
             <div className='about-desc'>
                 <p> "If I have seen further, it is by standing on the shoulders of giants." <br />-Isaac Newton</p>
             </div>
